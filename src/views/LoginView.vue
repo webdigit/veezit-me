@@ -16,7 +16,7 @@ const handleLogin = () => {
 
 <template>
   <v-container fluid class="login-page pa-0">
-    <v-row no-gutters class="fill-height">
+    <v-row no-gutters class="fill-height d-flex align-center justify-center">
       <v-col cols="12" class="d-flex align-center justify-center">
         <div class="login-container">
           <!-- Section gauche - Formulaire de connexion -->
@@ -165,6 +165,10 @@ const handleLogin = () => {
   min-height: 100vh;
   background: #f9fafb;
   width: 100%;
+  display: flex;
+  align-items: center; /* center vertically */
+  justify-content: center; /* center horizontally */
+  padding: 16px; /* mobile breathing space */
 }
 
 .login-container {
